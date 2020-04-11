@@ -40,9 +40,9 @@ class App extends React.Component {
                   </div>
               ))
             }
-
-            <div>
-            <select onChange={this.handleCurrencyChange}>
+            <h3 className="currenct-text">currency</h3>
+            <div className="select">
+            <select size="2" onChange={this.handleCurrencyChange}>
             {this.state.currencies.map((currency, index) => (
                 <option value={currency} key={index}>{currency}</option>
             ))}
