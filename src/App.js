@@ -12,7 +12,7 @@ class App extends React.Component {
     };
     this.CurrencyMultiplier = {
       'inr': 1,
-      'usd' : 1/75
+      'usd' : 1/0.0131042175
     };
     this.handleCurrencyChange = this.handleCurrencyChange.bind(this)
   }
