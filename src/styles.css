@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  margin: 60px;
+  display: flex;
+}
+
+.product-list {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  background-color:#f4f0ed;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+select{
+  overflow:auto;
+  width: 150px;
+}
